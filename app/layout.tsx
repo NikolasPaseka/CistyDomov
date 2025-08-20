@@ -4,9 +4,8 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'Čistý domov',
+  description: 'Profesionální úklid po celé ČR'
 }
 
 export default function RootLayout({
@@ -16,6 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>Čistý domov</title>
+      <link rel="icon" href="/icon-192x192.png" />
       <head>
         <style>{`
 html {

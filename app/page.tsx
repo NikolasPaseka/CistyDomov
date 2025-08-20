@@ -170,7 +170,7 @@ export default function Page() {
                 className="h-full w-full rounded-lg object-cover"
               />
               <Image
-                src="/placeholder-gyudl.png"
+                src="/image3.png"
                 alt="Mytí oken stěrkou"
                 width={240}
                 height={180}
