@@ -46,10 +46,12 @@ export default function Page() {
               <CheckCircle2 className="mt-1 h-7 w-7 text-sky-400" aria-hidden="true" />
               <span className="font-semibold">Sedaček, matrací a podlahových krytin</span>
             </li>
-            <li className="flex items-start gap-3">
+            <li className="flex items-start cen gap-3">
               <CheckCircle2 className="mt-1 h-7 w-7 text-sky-400" aria-hidden="true" />
-              <span className="font-semibold">Mytí oken a výloh</span>
-              <span className="ml-2 text-zinc-300">– beze šmouh, s perfektním výsledkem</span>
+              <div>
+                <span className="font-semibold">Mytí oken a výloh</span>
+                <span className="ml-1  text-zinc-300">– beze šmouh, s perfektním výsledkem</span>
+              </div>
             </li>
           </ul>
 
@@ -144,7 +146,8 @@ export default function Page() {
                 <CardContent className="flex items-center gap-4 p-4">
                   <CheckCircle2 className="h-6 w-6 text-sky-600" aria-hidden="true" />
                   <div>
-                    <div className="font-semibold">Provádíme i malířské práce</div>
+                    <div className="font-semibold">Provádíme i malířské a natěračské práce</div>
+                    <div className="text-sm text-zinc-600">Odkaz zde: <a href="https://malovanipaseka.vercel.app" className="text-sky-600 hover:underline">Malovani Paseka</a></div>
                   </div>
                 </CardContent>
               </Card>
