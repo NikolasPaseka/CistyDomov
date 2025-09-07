@@ -5,8 +5,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: "Čistý Domov",
-  description: "Poskytujeme úklid domácností a kanceláří s důrazem na kvalitu a spolehlivost.",
-  keywords: "úklid, čistý domov, domácnost, kancelář, profesionální úklid, úklid Brno, tepování Brno, tepování sedaček, mytí oken, úklidové služby",
+  description: "Čistý Domov - Poskytujeme úklid domácností a kanceláří s důrazem na kvalitu a spolehlivost.",
+  keywords: ["úklid", "čistý domov", "cisty domov", "cisty domov brno", "domácnost", "kancelář", "profesionální úklid", "úklid Brno", "tepování Brno", "tepování sedaček", "mytí oken", "úklidové služby"]
 }
 
 export default function RootLayout({
